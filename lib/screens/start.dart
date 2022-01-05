@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class Inicio extends StatefulWidget {
-  const Inicio({Key? key}) : super(key: key);
+class Start extends StatefulWidget {
+  const Start({Key? key}) : super(key: key);
 
   @override
   _StartState createState() => _StartState();
 }
 
-class _StartState extends State<Inicio> {
+class _StartState extends State<Start> {
   @override
   Widget build(BuildContext context) {
     return Container(

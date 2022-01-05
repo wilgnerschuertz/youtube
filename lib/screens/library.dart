@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class Biblioteca extends StatefulWidget {
-  const Biblioteca({Key? key}) : super(key: key);
+class Library extends StatefulWidget {
+  const Library({Key? key}) : super(key: key);
 
   @override
   _BibliotecaState createState() => _BibliotecaState();
 }
 
-class _BibliotecaState extends State<Biblioteca> {
+class _BibliotecaState extends State<Library> {
   @override
   Widget build(BuildContext context) {
     return Container(

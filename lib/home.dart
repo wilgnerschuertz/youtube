@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:youtube/screens/enrolled.dart';
+import 'package:youtube/screens/library.dart';
+import 'package:youtube/screens/on-the-rise.dart';
+import 'package:youtube/screens/start.dart';
 
 class Home extends StatefulWidget {
   const Home({Key? key}) : super(key: key);
@@ -10,15 +14,14 @@ class _HomeState extends State<Home> {
 
   int _indiceAtual = 0;
 
-
   @override
   Widget build(BuildContext context) {
 
     List<Widget> telas = [
-      Text("1"),
-      Text("2"),
-      Text("3"),
-      Text("4"),
+      Start(),
+      Enrolled(),
+      OnTheRise(),
+      Library(),
     ];
 
     return Scaffold(

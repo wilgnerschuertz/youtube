@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class Inscritos extends StatefulWidget {
-  const Inscritos({Key? key}) : super(key: key);
+class Enrolled extends StatefulWidget {
+  const Enrolled({Key? key}) : super(key: key);
 
   @override
   _InscritosState createState() => _InscritosState();
 }
 
-class _InscritosState extends State<Inscritos> {
+class _InscritosState extends State<Enrolled> {
   @override
   Widget build(BuildContext context) {
     return Container(
