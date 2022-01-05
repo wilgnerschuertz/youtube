@@ -68,7 +68,7 @@ class _HomeState extends State<Home> {
           unselectedItemColor: Color.fromRGBO(220, 220, 220, 1),
           items: [
           BottomNavigationBarItem(
-              title: Text("Inicio"),
+              title: Text("Início"),
               icon: Icon(Icons.home),
           ),
             BottomNavigationBarItem(
